@@ -3,5 +3,5 @@ WORKDIR /usr/src/app
 EXPOSE 8000
 COPY requirements.txt .
 RUN pip install -qr requirements.txt
-COPY server.py .
+COPY hello-world.py .
 CMD ["python3", "./hello-world.py"]
